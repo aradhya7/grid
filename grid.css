@@ -1,0 +1,47 @@
+html{}
+
+body{
+	margin:0;
+}
+
+body>div{
+	background:blue;
+	padding: 5px;
+}
+
+div>div{
+	background:red;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+div>div:last-child{
+  margin-bottom: 0px;
+}
+
+karthik{
+	font-size: 30px;
+	color: green;
+	background: #ccc;
+	padding: 10px;
+	text-align: center;
+	display: block;
+}
+
+.myName{
+	letter-spacing: 10px;
+	visibility: visible;
+	animation-name: kar;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+
+@keyframes kar{
+	form{
+		color: green;
+	}
+	to{
+        color: #ccc;
+	}
+}
