@@ -6,42 +6,35 @@ body{
 
 body>div{
 	background:blue;
-	padding: 5px;
+	height: 300px;
+	padding: 10px;
+	
+	text-align: center;
+	line-height: 145px;
+
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: auto auto auto;
 }
 
 div>div{
 	background:red;
-	padding: 10px;
-	margin-bottom: 5px;
-}
-
-div>div:last-child{
-  margin-bottom: 0px;
-}
-
-karthik{
-	font-size: 30px;
-	color: green;
-	background: #ccc;
-	padding: 10px;
 	text-align: center;
-	display: block;
 }
 
-.myName{
-	letter-spacing: 10px;
-	visibility: visible;
-	animation-name: kar;
-	animation-duration: 0.5s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in;
+navbar{
+	display: grid;
+	
+	
+	background: pink;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	grid-template-columns: 10% 70% 10% 7%;
+	grid-column-gap:1%;
+
 }
 
-@keyframes kar{
-	form{
-		color: green;
-	}
-	to{
-        color: #ccc;
-	}
+navbar>*{
+	background: yellow;
 }
