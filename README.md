@@ -7,7 +7,7 @@ display : grid | inline-grid
 
 grid-column-gap
 grid-row-gap
-grid-gap
+grid-gap : 50px (grid-column-gap), 100px (grid-row-gap);
 
 grid-column-start
 grid-column-end
